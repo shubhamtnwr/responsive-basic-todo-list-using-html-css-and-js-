@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list-dom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="simple-txt">My Tasks</div>
+            <div class="intro">My todo app</div>
+        </header>
+        Stay organised one task at a time.
+        <div class="tasks-data">
+            <div id="task-left">
+                <p>Tasks left.</p>
+                <h2 class="left">00</h2>
+            </div>
+            <div id="task-complete">
+                <p>Tasks completed.</p>
+                <h2 class="complete">00</h2>
+            </div>
+        </div>
+        Add a new task
+        <div class="add-task">
+            <input type="text" placeholder="Enter your text">
+            <button class="add">+</button>
+        </div>
+        <div class="total-tasks">
+            Your tasks
+            <p class="totaltasks"> 0 tasks </p>
+        </div>
+        <div class="task-div">
+            <!--<div class="tasks">
+                <div id="tasks-information">
+                <div class="circle"></div>
+                <p class="my-task">Dsa 870 ques</p>
+                </div>
+                <button class="delete">delete</button>
+                <button class="edit">edit</button>
+            </div>-->
+        
+        </div>
+        <div id="completion-btn"><button>Clear completed</button></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
